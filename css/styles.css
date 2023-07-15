@@ -1,0 +1,265 @@
+.container {
+  width: 1600px;
+  height: 80px;
+  margin: 0 auto;
+}
+header {
+  color: #757575;
+  font-size: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  background: #fff;
+  border-bottom: #eee;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.sigla-navigations {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.meniu-navigare {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px 0 200px;
+}
+body {
+  background-color: #fff;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+.navigations {
+  width: 300px;
+}
+.date-contact {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.title-page {
+  color: #fff;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.buton {
+  color: #fff;
+  background: #2196f3;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 30px;
+  font-style: normal;
+
+  line-height: 30px;
+  letter-spacing: 0.96px;
+  background: #2196f3;
+}
+.details-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 94px;
+  margin-bottom: 94px;
+  
+}
+.detail-list-item {
+margin: 15px;
+width: 270px;
+height: 75px;
+}
+.title-work {
+  color: #212121;
+  font-size: 14px;
+
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+.details-work {
+  color: #757575;
+  font-size: 14px;
+
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+.intermediar-title-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 94px;
+}
+.intermediar-images > img {
+  margin: 15px;
+}
+.title-intermediar {
+  color: #212121;
+  margin-bottom: 50px;
+  font-size: 36px;
+
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+.name-team {
+  color: #212121;
+  font-size: 16px;
+
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+.speciality {
+  color: #757575;
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+footer {
+  background: #2f303a;
+  color: #fff;
+  font-size: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.42px;
+}
+.title-zone {
+  background: #2f303a;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team-zone {
+  background: #f5f4fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.cards-team{
+  display: flex;
+ 
+}
+.details-cards-team{
+  margin:15px;
+  flex-direction: column;
+display: flex;
+align-items: center;
+background-color: #fff;
+border-radius: 0px 0px 4px 4px; 
+border: #000;
+border-style: solid;
+}
+.sigla-blue-color {
+  color: #2196f3;
+  font-size: 26px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.sigla-white-color {
+  color: #fff;
+  font-size: 26px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.sigla-black-color {
+  color: #000;
+  font-size: 26px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.name-product {
+  color: #212121;
+  font-size: 18px;
+
+  line-height: 36px;
+  letter-spacing: 1.08px;
+}
+.category-product {
+  color: #757575;
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.48px;
+}
+ul {
+  list-style-type: none;
+}
+button {
+  background-color: #f5f4fa;
+}
+button:hover {
+  background-color: #2196f3;
+}
+.adress{
+  display: flex;
+  flex-direction: column;
+  padding-left: 200px;
+}
+.sigla-footer{
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.adress-footer{
+  margin-bottom: 60px;
+}
+.portofolio-body{
+  margin-top: 94px;
+  margin-bottom: 94px;
+
+ 
+}
+.card-portofolio ul{
+  display: flex;
+  
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.buttons-portofolio{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.first-button, .second-button, .three-button,
+.four-button, .five-button{
+  margin: 15px;
+}
+.cards-item-portofolio{
+  margin:15px;
+}
+.card-item-portofolio-description{
+  border-color: #eee;
+  border-style: solid;
+  padding: 15px;
+  border-top: none;
+}
