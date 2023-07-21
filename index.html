@@ -22,14 +22,22 @@
       <div class="sigla-navigations">
         <nav class="navigations">
           <ul>
-            <li>
-              <a href="studio.html"> Studio </a>
+            <li class="link-for-line">
+              <div class="test1">
+                <a  href="studio.html"> Studio </a>
+           <hr class="horizontal-line" />
+              </div>
+              
+                
+              
             </li>
-            <li>
+            <li class="link-for-line">
               <a href="portfolio.html">Portfolio</a>
+              <hr class="horizontal-line" />
             </li>
-            <li>
+            <li class="link-for-line">
               <a href="contacts.html"> Contacts </a>
+              <hr class="horizontal-line" />
             </li>
           </ul>
         </nav>
@@ -46,7 +54,7 @@
           <h1 class="title-page">EFFECTIVE SOLUTIONS FOR</h1>
         </div>
         <div><h1 class="title-page">YOUR BUSINESS</h1></div>
-        <button class="buton">Request our service</button>
+        <button class="buton" data-modal-open >Request our service</button>
       </section>
 
       <section class="details-list">
@@ -110,21 +118,38 @@
           </div>
         </div>
       </section>
+
       <section class="intermediar-title-section">
         <h2 class="title-intermediar">What we do</h2>
         <div class="intermediar-images">
-          <img
-            src="images/what-we-do1.jpg"
-            alt="scriere cod laptop"
-            width="370" />
-          <img
-            src="images/what-we-do2.jpg"
-            alt="telefon cu laptop"
-            width="370" />
-          <img
-            src="images/what-we-do3.jpg"
-            alt="paleta de culori"
-            width="370" />
+          <div class="intermediar-images-1">
+            <img
+              class="intermediar-images-img1"
+              src="images/what-we-do1.jpg"
+              alt="scriere cod laptop"
+              width="370" />
+            <div class="intermediar-image-text-over">
+              <p>DESKTOP APPS</p>
+            </div>
+          </div>
+          <div class="intermediar-images-2">
+            <img
+              src="images/what-we-do2.jpg"
+              alt="telefon cu laptop"
+              width="370" />
+            <div class="intermediar-image-text-over">
+              <p>MOBILE APPS</p>
+            </div>
+          </div>
+          <div class="intermediar-images-3">
+            <img
+              src="images/what-we-do3.jpg"
+              alt="paleta de culori"
+              width="370" />
+            <div class="intermediar-image-text-over">
+              <p>DESIGN SOLUTIONS</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -401,5 +426,14 @@
         </div>
       </div>
     </footer>
+
+    <div class="modal is-hidden" data-modal>
+    <div class="modal-content">
+      <button class="close-btn" data-modal-close>&times;</button>
+      Continutul modalului
+    </div>
+  </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
