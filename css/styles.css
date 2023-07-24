@@ -552,10 +552,44 @@ display: flex;
 justify-content: center;
   align-items: center;
 }
+#studio-blue{
+  color:#2196F3;
+}
+#portofolio-blue{
+  color:#2196F3;
+}
+
+#contacts-blue{
+  color:#2196F3;
+}
+
+.line-studio::after{
+content:"Studio";
+  color: #fff;
+  width:100%;
+  border-radius: 2px;
+border-bottom:3px solid #2196F3;
+}
+
+.line-portofolio::after{
+content:"Portofolio";
+  color: #fff;
+  width:100%;
+  border-radius: 2px;
+border-bottom:3px solid #2196F3;
+}
+
+.line-contacts::after{
+content:"Contacts";
+  color: #fff;
+  width:100%;
+  border-radius: 2px;
+border-bottom:3px solid #2196F3;
+}
 
 /*.sigla-navigations .navigations a:focus, .sigla-navigations .navigations a:hover{
   position:relative;*/
-
+/*
   .test1{
     display: flex;
     flex-direction: column;
@@ -586,7 +620,7 @@ background: #2196F3;
   width:100%;
   border-radius: 2px;
 background: #2196F3;
-}
+} */
 
 /*Modal*/
 
@@ -600,9 +634,9 @@ background: #2196F3;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: transform var(--transition);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   pointer-events: auto;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .modal-content {
@@ -621,7 +655,7 @@ background: #2196F3;
 
 .close-btn {
   background-color: white;
-  border: 3px solid #6e0505;
+  border: 2px solid rgba(0, 0, 0, 0.10);
   color: black;
   cursor: pointer;
   outline: none;
@@ -631,10 +665,13 @@ background: #2196F3;
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  transition: background-color var(--transition);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-btn:focus,
 .close-btn:hover {
-  background-color: #6e0505;
+  background-color: #fff;
+}
+ul{
+  margin-bottom: 0;
 }
