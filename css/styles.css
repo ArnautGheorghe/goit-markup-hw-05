@@ -675,46 +675,47 @@ background: #2196F3;
 ul{
   margin-bottom: 0;
 }
-/* in lucru 
-.cards-item-portofolio:focus, .cards-item-portofolio:hover, .overlay-img1{
-top:0;
-}
-.overlay-img1 {
-  position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
-  
-  background: rgba(0,0,0,0.5);
-  color: #fff;
-  overflow: hidden;
-  text-align: center;
-  /* fix text transition issue for .left and .right but need to overwrite left and right properties in .right 
-  width: 100%; 
-  
-  -moz-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
-  -webkit-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
-  transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
-}
-.overlay-img1, .top {
-  top: 100%;
-}
-* {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
+
+
+.top{
+  cursor: pointer;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  width: 100%;
+  opacity: 0;
+  color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+letter-spacing: 0.54px; 
+padding: 50px, 24px;
 }
-.cards-item-portofolio {
-  position: relative;
+.top{
+  background: linear-gradient(#AFB1B8, #AFB1B8, #2196F3 50%, #2196F3);
+  background-size: 100% 200%;
+  height: 5%;
+  /*trasition effect for background*/
+  transition: height 2s, transform 2s ;
+bottom:0;
+}
+
+.top:hover{
+  background-position: 100% 100%;
+  opacity: 0.9;
+  padding: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height:100%;
+
   
-  border: 1px solid #333;
-  float: left;
-  margin: 2%;
-  overflow: hidden;
-  width: 21%;
-  max-width: 540px;
 }
-.cards-item-portofolio img {
-  max-width: 100%;
+.effect{
+  position:relative;
 }
-*/
+.overlay-img1{
+  position:absolute;
+  bottom:0;
+}
